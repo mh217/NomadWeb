@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    
+}
+#navImg {
+    width: 50px;
+    height: 50px;
+}
+
+#head_img {
+    height: 1000px;
+    width: 100%;
+}
+#navbar {
+    background-color: #f4f9fd;
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.nav-item {
+    margin: 0 10px;
+}
+
+
+.image-text-container {
+    background-image: url("Images/javier-allegue-barros-Kr3Ls8Tw8h4-unsplash.jpg"); 
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+    width: 100%;
+    color: white; 
+    text-shadow: 2px 2px 4px black; 
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.text-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.text-overlay p {
+    font-size: 1.4rem !important;
+}
+
+h1 {
+    font-size: 3rem !important; 
+    margin-bottom: 1rem;
+    font-size: 5rem;
+}
+
+#card-img {
+    height: 20rem;
+    width: auto;
+}
+
+#best-locations,  #gallery, #event, #contact {
+    padding-top: 5rem;
+}
+
+#best-locations h5 {
+    font-size: 2rem;
+}
+
+#best-locations p {
+    font-size: 2rem;
+}
+
+.card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card:hover {
+    transition: .5s; 
+    box-shadow: 0 17px 13px 0px #E8AD92;
+}
+
+#gallery h1, #contact h1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+#event .card {
+    background-color: #ED8C5E;
+}
+
+#event h5 {
+    font-size: 3rem;
+}
+
+#event p {
+    font-size: 1.5rem;
+}
+
+#Email, #mess, #btn {
+    display: flex;
+    justify-content: center;
+}
+
+#mess, #btn, #footer{
+    padding-top: 2rem;
+}
+
+#mess input {
+    width: auto;
+    height: 20rem;
+    font-size: 2rem;
+    border-color: #E8AD92;
+}
+
+#Email input {
+    width: auto;
+    height: 4rem;
+    font-size: 2rem;
+    border-color: #E8AD92;
+}
+
+#Email input::placeholder, #mess input::placeholders {
+    font-size: 2rem;
+}
+
+
+#btn button{
+    width: auto;
+    height: 4rem;
+    font-size: 2rem;
+    background-color: #ED8C5E;
+    border-color: #ED8C5E;
+}
+
+#btn button:hover{
+    transition: .5s;
+    background-color:#E8AD92;
+    border-color: #E8AD92;
+}
+
+#socialmedia img {
+    width: 4rem;
+    height: 4rem;
+}
+
+#footer span {
+    font-size: 1.4rem;
+}

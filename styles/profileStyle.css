@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+.sidenav {
+    height: 100%;
+    background: linear-gradient(#E77C49, #F8C301);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.main {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }            
+}
+.profile-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+.profile-main-text h2{
+    font-weight: 300;
+}
+
+.card {
+    box-shadow: 0 17px 13px 0px #E8AD92;
+}
+
+.card h5 {
+    padding-top: 1rem;
+}
+.card h5,p {
+    padding-left: 1rem;
+}
+
+
+
